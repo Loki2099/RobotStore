@@ -1,0 +1,97 @@
+﻿body{
+	background-color:steelblue;
+}
+
+.headerlogo img{
+	top:.75em;
+	left:.5em;
+	height: 10em;
+	width: 10em;
+}
+
+#headername{
+	position:absolute;
+	top:.75em;
+	left:3em;
+	font-family:"Segoe UI",Tahoma,Helvetica,Sans-Serif;
+	font-size:4em;
+	font-weight:bolder;
+}
+
+.searchbox{
+	position:absolute;
+	top:.75em;
+	right:.5em;
+}
+
+.navbar-background , .backgroundgradient{
+	height:2.75em;
+	width:100%;
+	margin-bottom:.4em;
+	margin-top:1.25em;
+	padding-left:.4em;
+}
+
+.navbar-background ul, .backgroundgradient ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.navbar-background ul li, .backgroundgradient ul li{
+	display: block;
+}
+
+.navbar-background, .backgroundgradient{
+	background-color:maroon;
+}
+
+.navlink {
+	height: 35px;
+	margin-right: 10px;
+	font-size: 18px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+.navlink:hover{
+	text-decoration:underline;
+}
+
+footer{
+	display:inline-block;
+	width:100%;
+	margin:3em 0;
+	padding:.5em 0;
+	background-color:royalblue;
+}
+
+footer p{
+	margin-left:1em;
+	float:left;
+}
+
+footer address{
+	position:relative;
+	top:1em;
+	margin-left:1em;
+	float:left;
+}
+
+.textcontent{
+	margin-left:10em;
+}
+
+.textcontent a{
+	color:silver;
+}
+.smalltext{
+	position:relative;
+	float:right;
+	margin-right:1em;
+}
+
+#welcometext { column-count: 2; }

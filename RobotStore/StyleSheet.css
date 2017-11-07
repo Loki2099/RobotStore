@@ -1,28 +1,31 @@
 ﻿body{
 	background-color:steelblue;
+	font-family:"Segoe UI",Tahoma,Helvetica,Sans-Serif;
 }
 
-.headerlogo img{
-	top:.75em;
-	left:.5em;
-	height: 10em;
-	width: 10em;
+footer, header{
+	display:block;
+}
 
+
+.headerlogo img{
+	vertical-align:top;
+	left:.5em;
+	height: 10rem;
+	width: 10rem;
 }
 
 #headername{
-	position:absolute;
-	top:.75em;
-	left:3em;
-	font-family:"Segoe UI",Tahoma,Helvetica,Sans-Serif;
+	left:auto;
 	font-size:4em;
 	font-weight:bolder;
+	
 }
 
 .searchbox{
 	position:absolute;
-	top:.75em;
-	right:.5em;
+	right:1%;
+	top:1%;
 }
 
 .navbar-background , .backgroundgradient{
@@ -62,37 +65,34 @@
 	text-decoration:underline;
 }
 
-footer {
+footer{
 	width:100%;
-	display: inline-block;
-	margin: 3em 0;
-	padding: .5em 0;
-	background-color: royalblue;
+	text-align:center;
+	margin:3em auto;
+	padding:.5em 0;
+	background-color:khaki;
 }
 
 footer p{
-	margin-left:1em;
-	float:left;
+	display:inline-block;
+	margin-right:1em;
 }
 
 footer address{
-	position:relative;
-	top:1em;
-	margin-left:1em;
-	float:left;
+	color:midnightblue;
+	display:inline-block;
+	margin-right:auto;
 }
 
 .textcontent{
-	margin-left:10em;
+	color:red;
 }
 
 .textcontent a{
-	color:silver;
+	color:olive;
 }
 .smalltext{
-	position:relative;
-	float:right;
-	margin-right:1em;
+	color:seagreen;
 }
 
 #welcometext { column-count: 2; }

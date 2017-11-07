@@ -62,12 +62,12 @@
 	text-decoration:underline;
 }
 
-footer{
-	display:inline-block;
+footer {
 	width:100%;
-	margin:3em 0;
-	padding:.5em 0;
-	background-color:royalblue;
+	display: inline-block;
+	margin: 3em 0;
+	padding: .5em 0;
+	background-color: royalblue;
 }
 
 footer p{

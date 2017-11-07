@@ -120,6 +120,7 @@
     <Content Include="images\welcome.jpg" />
     <Content Include="index.html" />
     <Content Include="robots.html" />
+    <Content Include="RobotsStyle.css" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>

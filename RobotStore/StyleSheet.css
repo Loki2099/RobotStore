@@ -19,13 +19,13 @@ footer, header{
 	left:auto;
 	font-size:4em;
 	font-weight:bolder;
-	
+	text-shadow:3px 2px red;
 }
 
 .searchbox{
 	position:absolute;
-	right:1%;
-	top:1%;
+	right:.5em;
+	top:.5em;
 }
 
 .navbar-background , .backgroundgradient{
@@ -81,7 +81,12 @@ footer p{
 footer address{
 	color:midnightblue;
 	display:inline-block;
+	margin-left:-.5em;
 	margin-right:auto;
+}
+
+fieldset{
+	border:none;
 }
 
 .textcontent{
@@ -91,8 +96,18 @@ footer address{
 .textcontent a{
 	color:olive;
 }
+
 .smalltext{
 	color:seagreen;
 }
 
-#welcometext { column-count: 2; }
+/*index styling*/
+#welcometext{
+	column-count: 2;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#welcometext header{
+	font-size:1.5em;
+}
+/*end index styling*/

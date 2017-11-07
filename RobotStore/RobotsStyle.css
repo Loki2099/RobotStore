@@ -1,0 +1,12 @@
+﻿body {
+	background-color:slategray;
+}
+
+legend{
+	font-size:2em;
+	font-weight:bolder;
+}
+
+#robo1{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

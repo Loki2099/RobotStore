@@ -105,6 +105,10 @@ fieldset{
 	color:seagreen;
 }
 
+.HighLight{
+	background-color:yellow;
+}
+
 /*index styling*/
 #welcometext{
 	column-count: 2;

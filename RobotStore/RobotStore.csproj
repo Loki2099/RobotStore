@@ -95,9 +95,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutStyle.css" />
+    <Content Include="ComputerScript.js" />
     <Content Include="ComputerStyle.css" />
     <Content Include="ContactStyle.css" />
     <Content Include="ContactScript.js" />
+    <Content Include="IndexScript.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -11,6 +11,6 @@ function LoadContactJS(){
 	$("textarea[name='quest']").focusin(function(){ActiveField(this);});
 	$("textarea[name='quest']").focusout(function(){ActiveField(this);});
 
-	function ActiveField(aip){$(aip).toggleClass("HighLight");}
+	function ActiveField(aip){$(aip).toggleClass("highLight");}
 }
 

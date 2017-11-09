@@ -15,4 +15,6 @@ fieldset ul li:nth-child(odd){
 	background-color:slateblue;
 }
 
-.HighLightR{background-color:yellow;}
+.hidden{
+	display:none;
+}

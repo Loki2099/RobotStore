@@ -105,11 +105,15 @@ fieldset{
 	color:seagreen;
 }
 
-.HighLight{
+.highLight{
 	background-color:yellow;
 }
 
 /*index styling*/
+#loadingDiv{
+	display:none;
+}
+
 #welcometext{
 	column-count: 2;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

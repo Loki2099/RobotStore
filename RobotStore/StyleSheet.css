@@ -73,12 +73,10 @@ footer, header{
 }
 
 footer{
-	position:absolute;
-	bottom:1em;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	width:100%;
 	text-align:center;
-	margin:6em auto 0em auto;
+	margin:2em auto;
 	padding:.5em 0;
 	background-color:khaki;
 }
@@ -122,7 +120,7 @@ fieldset{
 }
 
 #welcometext{
-	width:50%;
+	/*width:50%;*/
 	column-count: 2;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

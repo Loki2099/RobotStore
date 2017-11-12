@@ -4,92 +4,107 @@
 	<title>Mr Robot!</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="ComputerScript.js"></script>
+	<script src="scripts/ComputerScript.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
-	<link rel="stylesheet" type="text/css" href="ComputerStyle.css" />
+	<link rel="stylesheet" type="text/css" href="styles/SiteStyle.css" />
+	<link rel="stylesheet" type="text/css" href="styles/ComputerStyle.css" />
 </head>
 <body>
-	<header>
-		<div>
-			<a class="headerlogo" href="index.html">
-				<img src="images/logo.jpg" />
-			</a>
-			<span id="headername">Mr. Robot</span>
-			<input type="search" class="searchbox" placeholder="Search our store" />
-		</div>
+	<section class="content">
+		<header>
+			<div class="container-fluid col-sm-12" id="hdrLogo">
+				<a class="headerlogo col-sm-2" href="index.html">
+					<img src="images/logo.jpg" />
+				</a>
+				<input type="search" class="searchbox col-sm-2 col-sm-offset-3 pull-right" placeholder="Search our store" />
+				<span class="col-sm-5" id="headername">Mr. Robot</span>
+			</div>
 
-		<nav class="backgroundgradient">
-			<ul>
-				<li><a class="navlink" href="index.html">Home</a></li>
-				<li><a class="navlink" href="robots.html">Robots</a></li>
-				<li><a class="navlink active" href="computers.html">Hardware</a></li>
-				<li><a class="navlink" href="contact.html">Contact</a></li>
-				<li><a class="navlink" href="about.html">About</a></li>
-			</ul>
-		</nav>
-	</header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a class="navlink" href="index.html">Home</a></li>
+							<li><a class="navlink" href="robots.html">Robots</a></li>
+							<li><a class="navlink" id="active" href="computers.html">Hardware</a></li>
+							<li><a class="navlink" href="contact.html">Contact</a></li>
+							<li><a class="navlink" href="about.html">About</a></li>
+						</ul>
+					</div> <!--clps-->
+				</div> <!--cnt fld-->
+			</nav>
+		</header>
 
-	<form>
-		<fieldset>
-			<legend>Select a CPU</legend>
-			<p><label for="i3"><input type="radio" name="CPU" id="i3">Intel i3</label></p>
-			<p><label for="i4"><input type="radio" name="CPU" id="i4"></label>Intel i4</p>
-			<p><label for="i7"><input type="radio" name="CPU" id="i7"></label>Intel i7</p>
-		</fieldset>
-		<fieldset>
-			<legend>Select Ram</legend>
-			<p><label for="8"><input type="radio" name="ram" id="8">8gig</label></p>
-			<p><label for="16"><input type="radio" name="ram" id="16">16gig</label></p>
-		</fieldset>
-		<fieldset>
-			<legend></legend>
+		<form class="col-sm-12">
+			<fieldset class="col-sm-8">
+				<legend>Select a CPU</legend>
+				<p><label for="i3"><input type="radio" name="CPU" id="i3">Intel i3</label></p>
+				<p><label for="i4"><input type="radio" name="CPU" id="i4"></label>Intel i4</p>
+				<p><label for="i7"><input type="radio" name="CPU" id="i7"></label>Intel i7</p>
+			</fieldset>
+			<fieldset class="col-sm-8">
+				<legend>Select Ram</legend>
+				<p><label for="8"><input type="radio" name="ram" id="8">8gig</label></p>
+				<p><label for="16"><input type="radio" name="ram" id="16">16gig</label></p>
+			</fieldset>
+			<fieldset class="col-sm-8">
+				<legend></legend>
+				<p><label for="vrh"><input type="checkbox" name="" id="vrh">Virtual Reality Helmet</label></p>
+				<p><label for="3ds"><input type="checkbox" name="" id="3ds">3D Screen</label></p>
+				<p><label for="ss"><input type="checkbox" name="" id="ss">Stereo Speakers</label></p>
+			</fieldset>
+			<div class="col-sm-12 pull-left">
+				<p>
+					<button id="submitBtn">Submit</button>
+				</p>
+			</div>		</form>
+		<footer class="col-sm-12 center-block">
+			<div>
+				<p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
+			</div>
+			<p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
+			<p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+		</footer>
 
-			<p><label for="vrh"><input type="checkbox" name="" id="vrh">Virtual Reality Helmet</label></p>
-			<p><label for="3ds"><input type="checkbox" name="" id="3ds">3D Screen</label></p>
-			<p><label for="ss"><input type="checkbox" name="" id="ss">Stereo Speakers</label></p>
-		</fieldset>
-		<p>
-			<button>Submit</button>
-		</p>
-	</form>
-	<footer>
-		<p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
-		<p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
-		<p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
-	</footer>
-
-
-	<!--<script>
-		/* TODO: Move To js file */
-		/*********************************************************
-		 *
-		 *   Test Checkboxes/Radio Buttons Script
-		 *
-		 *********************************************************/
-		// loop through each form and handle submit event
-		for(var i = 0; i < document.forms.length; i++) {
-			var form = document.forms[i];
-			form.addEventListener('submit', function(e)
-			{
-				e.preventDefault();
-				var results = '';
-				// loop through all checkboxes to see if checked
-				var checkboxes = form.querySelectorAll("input[type='checkbox']");
-				for(var k = 0; k < checkboxes.length; k++) {
-					results += checkboxes[k].id + '=' + checkboxes[k].checked + '\n';
-				}
-				// loop through all radio butotns to display value
-				var radiobuttons = form.querySelectorAll("input[type='radio']:checked");
-				for(var m = 0; m < radiobuttons.length; m++) {
-					results += radiobuttons[m].name + '=' + radiobuttons[m].value + '\n';
-				}
-				// alert results
-				alert(results);
-			});
-		}
-	</script>-->
+		<!--<script>
+			/* TODO: Move To js file */
+			/*********************************************************
+			 *
+			 *   Test Checkboxes/Radio Buttons Script
+			 *
+			 *********************************************************/
+			// loop through each form and handle submit event
+			for(var i = 0; i < document.forms.length; i++) {
+				var form = document.forms[i];
+				form.addEventListener('submit', function(e)
+				{
+					e.preventDefault();
+					var results = '';
+					// loop through all checkboxes to see if checked
+					var checkboxes = form.querySelectorAll("input[type='checkbox']");
+					for(var k = 0; k < checkboxes.length; k++) {
+						results += checkboxes[k].id + '=' + checkboxes[k].checked + '\n';
+					}
+					// loop through all radio butotns to display value
+					var radiobuttons = form.querySelectorAll("input[type='radio']:checked");
+					for(var m = 0; m < radiobuttons.length; m++) {
+						results += radiobuttons[m].name + '=' + radiobuttons[m].value + '\n';
+					}
+					// alert results
+					alert(results);
+				});
+			}
+		</script>-->
+	</section>
 </body>
 </html>

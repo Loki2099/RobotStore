@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -94,11 +95,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AboutStyle.css" />
-    <Content Include="ComputerScript.js" />
-    <Content Include="ComputerStyle.css" />
-    <Content Include="ContactStyle.css" />
-    <Content Include="ContactScript.js" />
+    <Content Include="styles\AboutStyle.css" />
+    <Content Include="scripts\ComputerScript.js" />
+    <Content Include="styles\ComputerStyle.css" />
+    <Content Include="styles\ContactStyle.css" />
+    <Content Include="scripts\ContactScript.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -125,9 +126,10 @@
     <Content Include="images\welcome.jpg" />
     <Content Include="index.html" />
     <Content Include="robots.html" />
-    <Content Include="RobotScript.js" />
-    <Content Include="RobotsStyle.css" />
-    <Content Include="StyleSheet.css" />
+    <Content Include="scripts\RobotScript.js" />
+    <Content Include="styles\IndexStyle.css" />
+    <Content Include="styles\RobotsStyle.css" />
+    <Content Include="styles\SiteStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,68 @@
+﻿body{
+	background-color:steelblue;
+	font-family:"Segoe UI",Tahoma,Helvetica,Sans-Serif;
+}
+
+footer, header{
+	display:block;
+}
+
+#hdrLogo{
+	float:none;
+}
+
+.headerlogo img{
+	height: 8rem;
+	width: 8rem;
+}
+
+#headername{
+	display:block;
+	font-family:"Segoe UI",Tahoma,Helvetica,Sans-Serif;
+	color:black;
+	font-size:4em;
+	font-weight:bolder;
+	text-shadow:3px 2px red;
+}
+
+footer{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width:100%;
+	text-align:center;
+	margin:2em auto;
+	padding:.5em 0;
+	background-color:khaki;
+}
+
+footer p{
+	color:black;
+	display:inline-block;
+	margin-right:1em;
+}
+
+footer address{
+	color:midnightblue;
+	display:inline-block;
+	margin-left:-.5em;
+	margin-right:auto;
+}
+
+fieldset{
+	border:none;
+}
+
+.textcontent{
+	color:red;
+}
+
+.textcontent a{
+	color:olive;
+}
+
+.smalltext{
+	color:seagreen;
+}
+
+.highLight{
+	background-color:yellow;
+}

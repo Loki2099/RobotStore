@@ -10,3 +10,8 @@ fieldset{
 fieldset legend{
 	font-style:italic;
 }
+
+#aboutWelcome{
+	height:50%;
+	width:50%;
+}
